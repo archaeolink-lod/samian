@@ -19,7 +19,7 @@ jobs:
     uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     with:
       version: v016
-      rdffilepath: data/placeasaconcept_1.ttl data/loc_discoverysite_1.ttl data/loc_kilnregion_1.ttl data/loc_productioncentre_1.ttl data/loc_repositorylocation_1.ttl data/genericpotform_1.ttl data/potformgaulish_1.ttl data/potformitalian_1.ttl
+      rdffilepath: data/loc_discoverysite_1.ttl data/loc_kilnregion_1.ttl data/loc_productioncentre_1.ttl data/genericpotform_1.ttl data/potformgaulish_1.ttl data/potformitalian_1.ttl
       docpath: docs
       prefixns: http://data.archaeology.link/data/samian/
       prefixnsshort: no

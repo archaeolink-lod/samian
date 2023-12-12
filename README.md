@@ -12,6 +12,10 @@
 
 > https://archaeolink-lod.github.io/samian/loc_pc_2000001/index.html
 
+### kiln regions
+
+> https://archaeolink-lod.github.io/samian/loc_kr_325804/index.html
+
 ### potforms
 
 > https://archaeolink-lod.github.io/samian/gf_776552/index.html

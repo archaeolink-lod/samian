@@ -6,9 +6,9 @@ var minivowlresult={
  ],
  "nodes": [
   {
-   "name": "Potform",
+   "name": "GenericPotform",
    "type": "class",
-   "uri": "http://archaeology.link/ontology#Potform"
+   "uri": "http://archaeology.link/ontology#GenericPotform"
   },
   {
    "name": "Activity",

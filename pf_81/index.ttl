@@ -1,17 +1,17 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns1: <http://archaeology.link/ontology#> .
-@prefix ns2: <http://www.w3.org/ns/prov-o/> .
-@prefix ns3: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
+@prefix ns3: <http://www.w3.org/ns/prov-o/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/samian/pf_81> a ns1:Potform ;
     rdfs:label "80" ;
-    ns3:instanceOf ns1:Potform ;
+    ns2:instanceOf ns1:Potform ;
     ns1:hasImage <https://www1.rgzm.de/ips/forms/thumb/Walters80.jpg> ;
     ns1:hasType ns1:Gaulish ;
     dc:identifier 81 ;
-    ns2:wasAttributedTo <http://data.archaeology.link/data/samian/ImportPythonScript_Samian> ;
-    ns2:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> ;
-    ns2:wasGeneratedBy <http://data.archaeology.link/data/samian/activity_pf_81> .
+    ns3:wasAttributedTo <http://data.archaeology.link/data/samian/ImportPythonScript_Samian> ;
+    ns3:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> ;
+    ns3:wasGeneratedBy <http://data.archaeology.link/data/samian/activity_pf_81> .
 

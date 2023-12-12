@@ -1,17 +1,17 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix ns1: <http://www.w3.org/ns/prov-o/> .
-@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
-@prefix ns3: <http://archaeology.link/ontology#> .
+@prefix ns1: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://www.w3.org/ns/prov-o/> .
+@prefix ns3: <http://academic-meta-tool.xyz/vocab#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/samian/pf_501> a ns3:Potform ;
+<http://data.archaeology.link/data/samian/pf_501> a ns1:Potform ;
     rdfs:label "Consp. R02" ;
-    ns2:instanceOf ns3:Potform ;
-    ns3:hasImage <https://www1.rgzm.de/ips/forms/thumb/Consp_R_02_01_01.jpg> ;
-    ns3:hasType ns3:Italian ;
+    ns3:instanceOf ns1:Potform ;
+    ns1:hasImage <https://www1.rgzm.de/ips/forms/thumb/Consp_R_02_01_01.jpg> ;
+    ns1:hasType ns1:Italian ;
     dc:identifier 501 ;
-    ns1:wasAttributedTo <http://data.archaeology.link/data/samian/ImportPythonScript_Samian> ;
-    ns1:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> ;
-    ns1:wasGeneratedBy <http://data.archaeology.link/data/samian/activity_pf_501> .
+    ns2:wasAttributedTo <http://data.archaeology.link/data/samian/ImportPythonScript_Samian> ;
+    ns2:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> ;
+    ns2:wasGeneratedBy <http://data.archaeology.link/data/samian/activity_pf_501> .
 

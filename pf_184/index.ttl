@@ -1,15 +1,15 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix ns1: <http://www.w3.org/ns/prov-o/> .
-@prefix ns2: <http://academic-meta-tool.xyz/vocab#> .
-@prefix ns3: <http://archaeology.link/ontology#> .
+@prefix ns2: <http://archaeology.link/ontology#> .
+@prefix ns3: <http://academic-meta-tool.xyz/vocab#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/samian/pf_184> a ns3:Potform ;
+<http://data.archaeology.link/data/samian/pf_184> a ns2:Potform ;
     rdfs:label "R. 8g" ;
-    ns2:instanceOf ns3:Potform ;
-    ns3:hasImage <https://www1.rgzm.de/ips/forms/thumb/Ritt8g.jpg> ;
-    ns3:hasType ns3:Gaulish ;
+    ns3:instanceOf ns2:Potform ;
+    ns2:hasImage <https://www1.rgzm.de/ips/forms/thumb/Ritt8g.jpg> ;
+    ns2:hasType ns2:Gaulish ;
     dc:identifier 184 ;
     ns1:wasAttributedTo <http://data.archaeology.link/data/samian/ImportPythonScript_Samian> ;
     ns1:wasDerivedFrom <http://www.wikidata.org/entity/Q90412636> ;
